@@ -1,0 +1,160 @@
+body{
+    background-color: rgba(233, 178, 242, 0.362);
+}
+
+.contenant{
+    margin: 10%;
+}
+
+img{
+    width:100px;
+    vertical-align: top;
+}
+
+div{
+    text-align: center;
+}
+
+.eight{
+    position:relative;
+    animation: moveEight 15s;
+    animation-delay: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moveEight{
+    from{left:0px ; top:0px;}
+    6%{left:100px; top:0px;  }
+    78%{left:100px; top:0px;}
+    84%{ left:0px; top:0px;}
+    to{ left:0px; top:0px;}
+}
+
+.five{
+    position:relative;
+    animation:moveFive  15s;
+    animation-delay: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moveFive{
+    from{left:0px ; top:0px; }
+    6%{left:0px; top:0px; }
+    12%{left:100px; top:0px;}
+    72%{left:100px; top:0px;}
+    78%{left:100px; top:-100px;}
+    to{ left:100px; top:-100px;}
+}
+
+.seven{
+    position:relative;
+    animation:moveSeven  15s;
+    animation-delay: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moveSeven{
+    from{left:0px ; top:0px;}
+    12%{left:0px ; top:0px;}
+    18%{left:0px; top:100px;}
+    to{ left:0px; top:100px;}
+}
+
+.two{
+    position:relative;
+    animation:moveTwo  15s;
+    animation-delay: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moveTwo{
+    from{left:0px ; top:0px; }
+    18%{left:0px ; top:0px;}
+    24%{left:0px; top:100px;}
+    48%{left:0px; top:100px;}
+    54%{left:100px; top:100px;}
+    66%{left:100px; top:100px;}
+    72%{left:100px; top:0px;}
+    to{ left:100px; top:0px;}
+}
+
+.four{
+    position:relative;
+    animation:moveFour 15s;
+    animation-delay: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moveFour{
+    from{ left:0px ; top:0px;}
+    24%{left:0px ; top:0px;}
+    30%{left:-100px; top:0px; }
+    54%{left:-100px; top:0px;}
+    60%{left:-100px; top:100px;}
+    to{ left:-100px; top:100px;}
+}
+
+.one{
+    position:relative;
+    animation:moveOne 15s;
+    animation-delay: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moveOne{
+    from{left:0px ; top:0px;}
+    30%{left:0px ; top:0px;}
+    36%{ left:-100px; top:0px;}
+    60%{left:-100px; top:0px;}
+    66%{left:-200px; top:0px;}
+    to{ left:-200px; top:0px;}
+}
+
+.three{
+    position:relative;
+    animation:moveThree 15s;
+    animation-delay: 1.5s; 
+    animation-iteration-count: infinite; 
+}
+
+@keyframes moveThree{
+    from{left:0px ; top:0px;}
+    36%{left:0px ; top:0px;}
+    42%{left:0px; top:-100px;}
+    to{left:0px; top:-100px;}
+}
+
+.six{
+    position:relative;
+    animation:moveSix 15s;
+    animation-delay: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moveSix{
+    from{left:0px ; top:0px;}
+    42%{left:0px ; top:0px;}
+    48%{left:100px; top:0px;}
+    to{left:100px; top:0px;}
+}
+
+.nine{
+    opacity:0;
+    animation:moveNine 15s;
+    animation-delay: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moveNine{
+    from{opacity:0;}
+    84%{opacity:0;}
+    85%{opacity:0.12;}
+    86%{opacity:0.25;}
+    87%{opacity:0.37;}
+    88%{ opacity: 0.5;}
+    89%{opacity:0.6;}
+    90%{opacity: 0.75;}
+    91%{opacity: 0.9;}
+    92%{opacity:1;}
+    to{opacity:1;}
+}
